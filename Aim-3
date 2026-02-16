@@ -1,0 +1,35 @@
+<html>
+<head>
+	</head>
+<body bgcolor="Silver">
+	<h3>Student Info</h3>
+	<table border="1">
+	<tr>
+    	<th>Name</th>
+    	<th>USN NO</th>
+  	</tr>
+  	<tr>
+    	<td>Madhur Jamgade</td>
+	<td>CS25029</td>  	
+	</tr>
+	<tr>
+    	<td>ABS</td>
+  	<td>CS250XX</td>
+	</tr>
+	</table>
+	<h3>Time Table</h3>
+	<table border="1">
+	<tr>
+    	<th>Subject</th>
+    	<th>Time</th>
+  	</tr>
+  	<tr>
+    	<td>Maths</td>
+	<td>10:30-11:30</td>  	
+	</tr>
+	<tr>
+    	<td>Web-Designing</td>
+  	<td>11:30-1:30</td>
+	</tr>
+	</table>
+</html>
