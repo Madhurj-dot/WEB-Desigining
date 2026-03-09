@@ -13,17 +13,11 @@
 <h1 align = "center">
     Resume
 </h1>
-
 <h2>Madhur Jamgade</h2><img src="MyImage.jpeg"  align="right" width="100" height="100">
 <h3>email:- madhurj.cse25@sbjit.edu.in</h3>
-
 <body>
-
-
 <h1>Educational Qualification</h1>
-
 <hr>
-
 <table border="1" cellpadding="10">
 <tr>
 <th>Sr No</th>
@@ -32,7 +26,6 @@
 <th>Year</th>
 <th>Percentage</th>
 </tr>
-
 <tr>
 <td>1</td>
 <td>10th</td>
@@ -40,7 +33,6 @@
 <td>2023</td>
 <td>80%</td>
 </tr>
-
 <tr>
 <td>2</td>
 <td>12th</td>
@@ -48,7 +40,6 @@
 <td>2023</td>
 <td>88%</td>
 </tr>
-
 <tr>
 <td>3</td>
 <td>B.Tech</td>
@@ -56,9 +47,7 @@
 <td>2029</td>
 <td>-----</td>
 </tr>
-
 </table>
-
 <h2>Skills</h2>
 <ul>
 <li>HTML</li>
@@ -66,25 +55,16 @@
 <li>Basic C Programming</li>
 <li>Problem Solving</li>
 </ul>
-
 <h2>Experience</h2>
 <p>Fresher</p>
-
 <h2>Internship</h2>
 <p>None</p>
-
 <h2>Personal Details</h2>
 <p>Name: Madhur Manoj Jamgade</p>
 <p>Date of Birth: 26/05/2007</p>
 <p>Address: Nagpur</p>
-
 <br><br>
-
 <p align="right"><b>Signature</b></p>
 <p align="right">________</p>
-
-<img src="anand.jpeg" align="right" height="10" width="10">
-
-
 </body>
 </html>
