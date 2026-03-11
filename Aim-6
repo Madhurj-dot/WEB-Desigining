@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body bgcolor="orange">
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="enroll">Enrollment ID :-</label><br>
+            <input type="text" id="enroll" placeholder="enroll" required><br><br>      
+            <label for="name">Full Name :-</label><br>
+            <input type="text" id="name" placeholder="Name" required><br><br>
+            <label for="name">Middle Name :-</label><br>
+            <input type="text" id="name" placeholder="Middle Name" required><br><br>
+            <label for="name">Last Name :-</label><br>
+            <input type="text" id="name" placeholder="Last Name" required><br><br>
+            <label for="email">Email Address :-</label><br>
+            <input type="email" id="email" placeholder="email@example.com" required><br><br>
+            <label for="user-password">Password:</label><br>
+            <input type="password" id="user-password" placeholder="password"><br><br>
+            <label>Gender :-</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="year">Current Year of Study:-</label><br>
+            <select id="year" name="year">
+                <option>First Year</option>
+                <option>Second Year</option>
+                <option>Third Year</option>
+                <option>Fourth Year</option>
+            </select><br><br>
+            <label>Select Interest Areas :-</label><br>
+            <input type="checkbox" id="skill" value="skill">
+            <label for="skill">C</label><br>
+            <input type="checkbox" value="skill">
+            <label for="skill">C++</label><br>
+            <input type="checkbox" id="skill" name="interest" value="skill">
+            <label for="skill">Python</label><br><br>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit Registration"><br>
+        <br><input type="reset" value="Clear Form"><br>
+
+    </form>
+
+</body>
+</html>
