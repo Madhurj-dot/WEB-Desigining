@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tribute to Steve Jobs</title>
+    <style>
+        /* 1. LAYOUT & BACKGROUND */
+        body {
+            background-color: #f0f0f0; /* Light grey background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* The main white box that holds everything */
+        .container {
+            width: 80%;
+            margin: 20px auto; /* Centers the box */
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #333; /* Dark border */
+        }
+
+        /* 2. NAVIGATION BAR */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .navbar a {
+            display: inline-block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none; /* Removes underline */
+        }
+
+        .navbar a:hover {
+            background-color: #555; /* Changes color when mouse touches it */
+        }
+
+        /* 3. TEXT STYLING */
+        h1 {
+            text-align: center;
+            color: #222;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5; /* Adds space between lines of text */
+            color: #444;
+        }
+
+        /* 4. IMAGE STYLING */
+        .profile-pic {
+            display: block;
+            margin: 0 auto; /* Centers the image */
+            width: 300px;
+            border: 10px solid #ddd; /* Thick light-grey border */
+            border-radius: 10px; /* Rounds the corners slightly */
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- This is your Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#biography">Biography</a>
+        <a href="#quotes">Quotes</a>
+    </div>
+
+    <!-- This is the Main Content Area -->
+    <div class="container">
+        
+        <h1>Steve Jobs</h1>
+        
+        <!-- Replace the URL below with a real photo link later! -->
+        <img src="https://via.placeholder.com" alt="Profile Picture" class="profile-pic">
+
+        <div id="biography">
+            <h2>The Visionary</h2>
+            <p>Steve Jobs was the co-founder of Apple Inc. and a pioneer of the personal computer revolution. He was known for his incredible design sense and for changing the way we use technology today.</p>
+        </div>
+
+        <div id="quotes">
+            <h2>Famous Quote</h2>
+            <p><i>"The only way to do great work is to love what you do."</i></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
