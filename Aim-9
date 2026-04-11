@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hero Showcase</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-mask"></i> Super Heroes</h1>
+        <p>Famous Heroes & Their Symbols</p>
+    </header>
+    <main class="grid">
+        <div class="box">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h2>Captain America</h2>
+            <p>Symbol of justice</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-spider"></i>
+            <h2>Spider-Man</h2>
+            <p>Your friendly neighborhood hero</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-moon"></i>
+            <h2>Batman</h2>
+            <p>The Dark Knight</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-fire"></i>
+            <h2>Iron Man</h2>
+            <p>Genius, Billionaire, Hero</p>
+        </div>
+    </main>
+</body>
+</html>
