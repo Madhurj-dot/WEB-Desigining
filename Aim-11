@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Daily Vibe Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>✨ How's the vibe?</h1>
+
+    <button onclick="getLocation()">Tag My Location</button>
+    <p id="city">Location not set</p>
+
+    <div id="options">
+        <div class="vibe" draggable="true" id="v1">🚀 High Energy</div>
+        <div class="vibe" draggable="true" id="v2">😴 Sleepy</div>
+        <div class="vibe" draggable="true" id="v3">🧘 Calm</div>
+    </div>
+
+    <h3>Current Mood:</h3>
+    <div id="dropZone" class="box">Drop vibe here</div>
+
+    <script>
+        const zone = document.getElementById('dropZone');
+
+        // 1. SIMPLE DRAG & DROP
+        document.addEventListener('dragstart', e => {
+            e.dataTransfer.setData('text', e.target.id);
+        });
+
+        zone.addEventListener('dragover', e => e.preventDefault());
+
+        zone.addEventListener('drop', e => {
+            e.preventDefault();
+            const id = e.dataTransfer.getData('text');
+            const element = document.getElementById(id);
+            zone.innerHTML = ''; // Clear "Drop vibe here" text
+            zone.appendChild(element);
+
+            // 2. AUTO-SAVE TO STORAGE
+            localStorage.setItem('savedVibe', element.innerText);
+        });
+
+        // 3. SIMPLE GEOLOCATION
+        function getLocation() {
+            navigator.geolocation.getCurrentPosition(pos => {
+                document.getElementById('city').innerText =
+                    `Lat: ${pos.coords.latitude.toFixed(2)}, Lon: ${pos.coords.longitude.toFixed(2)}`;
+            });
+        }
+
+        // 4. AUTO-LOAD ON START
+        window.onload = () => {
+            const lastVibe = localStorage.getItem('savedVibe');
+            if (lastVibe) zone.innerText = "Last saved: " + lastVibe;
+        };
+    </script>
+</body>
+
+</html>
